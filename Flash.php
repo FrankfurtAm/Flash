@@ -3,6 +3,7 @@ class Flash
 {
     private $key = 'flash_message';
     
+
     public function set($type, $message, $page)
     {
         $_SESSION[$this->key][$page] = [
