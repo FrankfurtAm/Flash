@@ -2,6 +2,11 @@
 <h1>Hey</h1>
 
 <code>
-jhgjjhg
- $lol = 'lol';
+$lol = 'lol';
 </code>
+
+$lol = 'lol';
+
+<pre>
+$lol = 'lol';
+</pre>
