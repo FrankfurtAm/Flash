@@ -3,4 +3,5 @@
 
 <code>
 jhgjjhg
+ $lol = 'lol';
 </code>
