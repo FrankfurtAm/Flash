@@ -1,12 +1,5 @@
-# Flash
-<h1>Hey</h1>
+# :scroll: Flash
 
-<code>
+```php
 $lol = 'lol';
-</code>
-
-$lol = 'lol';
-
-<pre>
-$lol = 'lol';
-</pre>
+```
