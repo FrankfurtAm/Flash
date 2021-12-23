@@ -13,7 +13,7 @@ require "Flash.php";
 $flash = new Flash();
 $flash->set('success', 'Authorization succeeded', 'index.php');
 
-$flash->set('error', 'Authorization failed', 'index.php');
+$flash->set('error', 'Authorization failed', 'login.php');
 ```
 
 ### Display Message
