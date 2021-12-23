@@ -48,4 +48,22 @@ The page on which you want to display the message
 
 ### Method Get
 
+```php
+$flash->get(string $page): array
+```
+
+***Page***
+
+The page where you want to receive a flash message
+
 ### Method Display
+
+Method display message in page
+
+```php
+$flash->get(string $page): null
+```
+
+***Page***
+
+The page where you want to receive a flash message
