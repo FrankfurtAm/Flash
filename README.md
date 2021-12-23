@@ -25,3 +25,15 @@ require "Flash.php";
 $flash = new Flash();
 $flash->display('index.php');
 ```
+
+# Documentation
+
+### Method Set
+
+```php
+$flash->set(string $type, string $suffix = ""): string
+```
+
+### Method Get
+
+### Method Display
