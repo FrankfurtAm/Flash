@@ -29,7 +29,7 @@ $flash->display('index.php');
 # Documentation
 
 ### Method Set
--------
+
 
 ```php
 $flash->set(string $type, string $message, string $page): bool
@@ -47,9 +47,10 @@ Any message that you want to display on the site
 The page on which you want to display the message
 
 
+-------
 
 ### Method Get
--------
+
 
 ```php
 $flash->get(string $page): array
@@ -60,8 +61,10 @@ $flash->get(string $page): array
 The page where you want to receive a flash message
 
 
-### Method Display
 -------
+
+### Method Display
+
 
 Method display message in page
 
