@@ -31,8 +31,20 @@ $flash->display('index.php');
 ### Method Set
 
 ```php
-$flash->set(string $type, string $suffix = ""): string
+$flash->set(string $type, string $message, string $page): bool
 ```
+***Type***
+
+Can be success or error
+
+***Message***
+
+Any message that you want to display on the site
+
+***Page***
+
+The page on which you want to display the message
+
 
 ### Method Get
 
