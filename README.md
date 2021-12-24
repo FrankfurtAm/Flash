@@ -36,7 +36,7 @@ $flash->set(string $type, string $message, string $page): bool
 ```
 ***Type***
 
-Can be success or error
+Message status. Can be success or error
 
 ***Message***
 
