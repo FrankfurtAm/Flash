@@ -53,7 +53,7 @@ The page on which you want to display the message
 
 
 ```php
-$flash->get(string $page): array : bool
+$flash->get(string $page): array : false
 ```
 
 ***Page***
