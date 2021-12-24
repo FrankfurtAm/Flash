@@ -36,7 +36,7 @@ $flash->set(string $type, string $message, string $page): bool
 ```
 ***Type***
 
-Can be success or error
+Message status. Can be success or error
 
 ***Message***
 
@@ -53,7 +53,7 @@ The page on which you want to display the message
 
 
 ```php
-$flash->get(string $page): array
+$flash->get(string $page): array : false
 ```
 
 ***Page***
