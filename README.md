@@ -52,7 +52,7 @@ Any message that you want to display on the site
 The page on which you want to display the message
 
 -------
-
+<br>
 ### Method Get
 
 
@@ -65,7 +65,7 @@ $flash->get(string $page): array : false
 The page where you want to receive a flash message
 
 -------
-
+<br>
 ### Method Display
 
 Method display message in page
