@@ -40,17 +40,17 @@ $flash->set(string $type, string $message, string $page): bool
 ***Type***
 
 Message status. Can be success or error
-<br>
+
 
 ***Message***
 
 Any message that you want to display on the site
-<br>
+
 
 ***Page***
 
 The page on which you want to display the message
-<br>
+
 -------
 
 ### Method Get
@@ -75,6 +75,6 @@ Method display message in page
 $flash->get(string $page): null
 ```
 
-***Page***
+#### ***Page***
 
 The page where you want to receive a flash message
