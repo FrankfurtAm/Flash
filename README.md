@@ -63,11 +63,9 @@ $flash->get(string $page): array : false
 ***Page***
 
 The page where you want to receive a flash message
-<br>
 -------
 
 ### Method Display
-
 
 Method display message in page
 
