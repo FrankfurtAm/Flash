@@ -75,6 +75,6 @@ Method display message in page
 $flash->get(string $page): null
 ```
 
-#### ***Page***
+***Page***
 
 The page where you want to receive a flash message
