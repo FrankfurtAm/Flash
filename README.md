@@ -29,7 +29,9 @@ $flash->display('index.php');
 <br>
 
 # Documentation
+<br>
 
+-------
 ### Method Set
 
 
@@ -53,6 +55,8 @@ The page on which you want to display the message
 
 -------
 <br>  
+
+-------
 
 ### Method Get
 
