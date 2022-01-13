@@ -15,6 +15,7 @@ $flash->set('success', 'Authorization succeeded', 'index.php');
 
 $flash->set('error', 'Authorization failed', 'login.php');
 ```
+<br>
 
 ### Display Message
 
@@ -25,6 +26,7 @@ require "Flash.php";
 $flash = new Flash();
 $flash->display('index.php');
 ```
+<br>
 
 # Documentation
 
@@ -34,19 +36,21 @@ $flash->display('index.php');
 ```php
 $flash->set(string $type, string $message, string $page): bool
 ```
+
 ***Type***
 
 Message status. Can be success or error
+<br>
 
 ***Message***
 
 Any message that you want to display on the site
+<br>
 
 ***Page***
 
 The page on which you want to display the message
-
-
+<br>
 -------
 
 ### Method Get
@@ -59,8 +63,7 @@ $flash->get(string $page): array : false
 ***Page***
 
 The page where you want to receive a flash message
-
-
+<br>
 -------
 
 ### Method Display
